@@ -47,6 +47,6 @@ I downloaded my data set from Stephanie Kovalchik who works for Victoria Univers
 ![Win Game Percentage by Set][Win_Game]
 
 
-[Serve_Pt]: Serve_Pt%.png
-[Return_Pt]: Return_Pt%.png
-[Win_Game]: Win_Game%.png
+[Serve_Pt]: images/Serve_Pt%.png
+[Return_Pt]: images/Return_Pt%.png
+[Win_Game]: images/Win_Game%.png
