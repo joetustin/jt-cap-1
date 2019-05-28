@@ -38,11 +38,11 @@ I downloaded my data set from Stephanie Kovalchik who works for Victoria Univers
 1. Stephanie Kovalchik
 2. Craig O'Shaughnessy
 
-![Serve Point Percentage by Game][Serve_Pt]
+![Serve Point Percentage by Game](images/Serve_Pt%.png)
 ![Return Point Percentage by Game][Return_Pt]
 ![Win Game Percentage by Set][Win_Game]
 
 
-[Serve_Pt]: images/Serve_Pt%.png
+[Serve_Pt]: (images/Serve_Pt%.png)
 [Return_Pt]: images/Return_Pt%.png
 [Win_Game]: images/Win_Game%.png
