@@ -38,10 +38,6 @@ I downloaded my data set from Stephanie Kovalchik who works for Victoria Univers
 1. Stephanie Kovalchik
 2. Craig O'Shaughnessy
 
-## Exploratory Data Analysis
-### Sub-Heading
-
-
 ![Serve Point Percentage by Game][Serve_Pt]
 ![Return Point Percentage by Game][Return_Pt]
 ![Win Game Percentage by Set][Win_Game]
