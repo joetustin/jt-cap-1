@@ -44,7 +44,7 @@ I downloaded my data set from Stephanie Kovalchik who works for Victoria Univers
 ![example][how_to]
 
 
-[Serve_Pt]: images/Serve_Pt%.png
-[Return_Pt]: images/Return_Pt%.png
-[Win_Game]: images/Win_Game%.png
+[Serve_Pt]: images/ServePts.png
+[Return_Pt]: images/ReturnPts.png
+[Win_Game]: images/WinGames.png
 [how_to]: images/joet.png
