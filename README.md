@@ -37,14 +37,30 @@ I downloaded my data set from Stephanie Kovalchik who works for Victoria Univers
 ### References:
 1. Stephanie Kovalchik
 2. Craig O'Shaughnessy
+### Serve Point Percentage By game
+First, figure out the percentage of time the winning server in a match wins each point in the service games.  Then, average this result over all matches for all winning players.  Figure is shown below....
 
 ![Serve Point Percentage by Game][Serve_Pt]
+
+### Return Point Percentage by game for winning player
+Same as above, but here we are looking at the average percent chance of winning each return pt in a game for the winning match player.
+
 ![Return Point Percentage by Game][Return_Pt]
+
+### Win Game percentage by Set for winning players
+Here, we look at chance of winning a game in the set for all winning players.  Please note that odd games represent serving games and even games represetn service games because we are examing a dataframe in which player 1 was the winner.
 ![Win Game Percentage by Set][Win_Game]
-![example][how_to]
+
+### Examine the likelihood of winning or losing a point in a game whether server or returner and whether match winner or loser
+![Chance of Winning a point Serve/Returner for Winnner and Loser][WinnerLoserPts]
+
+### How does sample size after normalizaton of the data?
+Let's look at the number of sets required to lead to stable point in game statistics.
+![Sample Size Analysis][SampleSize]
 
 
 [Serve_Pt]: images/ServePts.png
 [Return_Pt]: images/ReturnPts.png
 [Win_Game]: images/WinGames.png
-[how_to]: images/joet.png
+[WinnerLoserPts]: images/WinnerLoserPts.png
+[SampleSize]: images/SampleSize.png
