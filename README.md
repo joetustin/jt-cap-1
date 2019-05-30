@@ -47,7 +47,8 @@ Let's step away from the point by point analysis.  Rather, let's look at how the
 
 <!-- ![Win Game Percentage by Set][Win_Game]-->
 
-<img align="center" src="images/WinGameSetPerc.png">
+<div style ="text-align:center"/><img src="images/WinGameSetPerc.png"/></div>
+
 
 
 
@@ -82,7 +83,7 @@ Since I have such a nice dataset, I would like to use it to do bootstrap samplin
 [Serve_Pt]: images/ServeWinPtPerc.png
 [Return_Pt]: images/ReturnWinPtPerc.png
 [Win_Game]: images/WinGameSetPerc.png
-[WinnerLoserPts]: (images/WinnerLoserPts.png)
+[WinnerLoserPts]: images/WinnerLoserPts.png
 [SampleSize]: images/SampleSize.png
 [dataframe]: images/exampleDF.png
 [WorseCase]: images/WorstCase.png
