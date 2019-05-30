@@ -44,10 +44,10 @@ The return variation tracks with the serve variation as a complement.  While the
 #### Win Game percentage by Set for winning players
 Let's step away from the point by point analysis.  Rather, let's look at how the successful player's chance of winning each game in the set.  Note, our dataframe featured the winning player serving odd games.  The winning player was very successful at winning their service games (red lines) and there is a low probability for winning return games (blue line).  However, there is a noticeable dependency for the server to have a higher probability of losing the first game.  This effect makes sense as there has been a playing strategy advocating to refuse the serve if you win the coin toss.  Apparently, it is for good reason.  Also, there is an indication of a higher chance of achieving a break of serve in the middle of the set at the six game.  This effect is due to the serving player relaxing or letting their guard down.  Historically, this effect occurs in the seventh game.  However, since we are looking at winning players who started by serving, this effect would be shifted...(2500 sets)
 
-<p align="center">
-![Win Game Percentage by Set][Win_Game]
-</p>
 
+<!-- ![Win Game Percentage by Set][Win_Game]-->
+
+<img align="center" src="images/WinGameSetPerc.png">
 
 
 
