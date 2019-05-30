@@ -47,8 +47,9 @@ Let's step away from the point by point analysis.  Rather, let's look at how the
 ![Win Game Percentage by Set][Win_Game]
 
 #### Side by Side Comparison for Top Players: Sample Size 100 sets
+I took a look at the serve/return success rate by point in games for sets which were won by three vastly different players.  Roger Federer and Rafael Nadal represent two highly successful players but having vastly different styles.  Denis Istomin, while a very good player in his right, has hovered at a ranking that is historically at the bottom of the ATP tour (#100).  I suspected that Rafael Nadal would have a significant serve advantage on even points due to his leftiness, however, this artifact did not prove to be true.  From the plots, it is apparent that Roger Federer does an incredibly good job of consistently winning the first two points on his serve.  Rafael Nadal does an exceptionally good job of winning the third point on his return.  The two factors separate these players from the other 100.  Conversely, Denis Istomin, the much lower ranked player, has a serving success percentage which is approximately 10% lower and a return success percentage which is 4% lower thant the other two players.
 
-| ![](images/Roger.png) | ![](images/Rafa.png) | ![](images/Denis.png) |
+![](images/Comparison.png)
 
 
 
