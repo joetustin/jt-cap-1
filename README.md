@@ -49,6 +49,13 @@ I took a look at the serve/return success rate by point in games for sets which 
 
 ![](images/Comparison.png)
 
+#### Bootstrap Modeling Method:
+In an effort to validate my conclusions,  I ran a boot strap analysis on winning a set if you won return point number four at a rate of 0.44  I ran my bootstrap by resampling a dataset of 1000 samples 1000 more times.  I had a sample mean of .44 and a sample standard deviation of .008  The histogram of the result is shown below.  I set a significance value of 5% which resulted in z-value of .42  I next double checked to see if my result could accurately predict success or failure.  It was able to predict failure at a rate of 70%.  However, there is an error correction to be made.....
+
+![](images/bootstrap.png)
+
+
+
 
 
 
@@ -71,7 +78,7 @@ I took a look at the serve/return success rate by point in games for sets which 
 
 2.  There is a notable discrepancy for servers winning a higher percentage of points on odd points and returners doing better on even points.  This effect is most likely due to our dataset being dominated by right-handed players.
 
-3.  Big Points were found to be point one for servers and point four for returners.  By winning point one, the server, who already has the advantage, further increases their chance for success.  Returners have a higher success rate on point four which makes sense as they are highly incentivized to put added scoreboard pressure on the server at a pivotal moment.  If you are going to consistently win one point in a match, may it be point four on the return of serve. 
+3.  Big Points were found to be point one for servers and point four for returners.  By winning point one, the server, who already has the advantage, further increases their chance for success.  Returners have a higher success rate on point four which makes sense as they are highly incentivized to put added scoreboard pressure on the server at a pivotal moment.  If you are going to consistently win one point in a match, may it be point four on the return of serve.
 
 4.  Players have to be really careful about getting broken in the first game and they have a really good chance to getting the break for themselves in game six.  Again, this advantage assumes the player is the first server, otherwise, it would most likely be game seven.
 
