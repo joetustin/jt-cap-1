@@ -35,7 +35,7 @@ Let's dive a little deeper.  Let's look more specifically at the successful serv
 ![Serve Point Percentage by Game][Serve_Pt]
 
 #### Return Point Percentage by game for winning player
-The return variation tracks with the serve variation as a complement.  While the server has an advantage on odd points due to right-handedness,  the returner is no longer at an added disadvantage during even numbered points.  For instance, point four appears to be a significant point to win as it leads to a higher rate of success.  Point four would traditionally represent a 30-15 or a 15-30 score.  Since you still have your teeth in the game at a pivotal moment, it can provide your the separation necessary to win the game or it can help you put the server under adder pressure leading to eventual failure.  The other key to note is that the returner's win percentage is quite high for point six.  Point six would most likely represent an "Add Out" point so again, the successful player would be highly incentivized to go for the point. (2500 sets)
+The return variation tracks with the serve variation as a complement.  While the server has an advantage on odd points due to right-handedness,  the returner is no longer at an added disadvantage during even numbered points.  For instance, point four appears to be a significant point to win as it leads to a higher rate of success.  Point four would traditionally represent a 30-15 or a 15-30 score.  Since you still have your teeth in the game at a pivotal moment, it can provide your the separation necessary to win the game or it can help you put the server under added pressure leading to eventual failure.  The other key to note is that the returner's win percentage is quite high for point six.  Point six would most likely represent an "Add Out" point so again, the successful player would be highly incentivized to go for the point. (2500 sets)
 
 ![Return Point Percentage by Game][Return_Pt]
 
@@ -49,8 +49,8 @@ I took a look at the serve/return success rate by point in games for sets which 
 
 ![](images/Comparison.png)
 
-#### Bootstrap Modeling Method:
-In an effort to validate my conclusions,  I ran a boot strap analysis on winning a set if you won return point number four at a rate of 0.44  I ran my bootstrap by resampling a dataset of 1000 samples 1000 more times.  I had a sample mean of .44 and a sample standard deviation of .008  The histogram of the result is shown below.  I set a significance value of 5% which resulted in z-value of .42  I next double checked to see if my result could accurately predict success or failure.  It was able to predict failure at a rate of 70%.  However, there is an error correction to be made.....
+#### Bootstrap Modeling Method and Hypothesis Testing:
+In an effort to validate my conclusions,  I ran a bootstrap analysis on winning a set if you won return point number four (A Big Point) at a rate of 0.44  My null hypothesis is that if you win 44% of return point #4, you win the set.  The alternative hypothesis is that you do not win the set.  I ran my bootstrap by resampling a dataset of 1000 samples 1000 more times.  I had a sample mean of .44 and a sample standard deviation of .008  The histogram of the result is shown below.  I set a significance value of 5% for a one tailed test which resulted in a z-value of .42  I next double checked to see if my result could accurately predict success or failure on a new test data set.  It was able to predict failure at a rate of 70%.  However, there is a still an error correction to be made.....
 
 ![](images/bootstrap.png)
 
@@ -82,7 +82,7 @@ In an effort to validate my conclusions,  I ran a boot strap analysis on winning
 
 4.  Players have to be really careful about getting broken in the first game and they have a really good chance to getting the break for themselves in game six.  Again, this advantage assumes the player is the first server, otherwise, it would most likely be game seven.
 
-5.  In looking at top players versus lower ranked players,  it is estimated that there exists a 10% difference is serve success and a 4% difference in return success.  To validate these observed effects more accurately, more cases would have to be compared.
+5.  In looking at top players versus lower ranked players,  it is estimated that there exists a 10% difference in serve success and a 4% difference in return success.  To validate these observed effects more accurately, more cases would have to be compared.
 
 ## Future Work:
 Since I have such a nice dataset, I would like to use it to do bootstrap sampling and take a look at the distribution of sample means and set up an appropriate hypothesis test.  Also, I would like to do a logistic regression to see which points have the most effect on match outcome by examining the fitted weights.
